@@ -1,0 +1,57 @@
+button{
+    background-color: black;
+    color: whitesmoke;
+    width: 140px;
+    height: 30px;
+    border-radius: 7px;
+    border-width: 1px;
+    transition: 400ms;
+}
+button:hover{
+
+    transition: 500ms;
+    opacity: 80%;
+}
+
+p{
+    transform: translateY(16px);
+    animation: pointdown 1000ms infinite alternate-reverse;
+}
+@keyframes pointdown{
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(16px);
+    }
+}
+
+.arrow{
+
+    animation: point 700ms infinite alternate-reverse;
+}
+
+@keyframes point{
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(10px);
+    }
+}
+
+/* h1 {
+    background-color: mediumblue;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+div{
+    width: 100%;
+    max-width: 300px;
+    color:aqua;
+} */
+
+/* for getting fonts you can go to googlefonts */
+
+/* import url is a thing in css */
