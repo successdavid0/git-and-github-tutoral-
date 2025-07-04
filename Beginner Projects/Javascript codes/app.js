@@ -11,6 +11,30 @@
 // }
 
 
-let counter = 1
+// let counter = 1
 
-while(counter )
+// while(counter <= 20){
+//     console.log(counter)
+//     counter = counter +1
+// }
+
+// let str = "Asap Frontend";
+
+// for (let i = 1; i <= 15; i++) {
+//     console.log(i)
+//     if(i % 5 === 0){
+//         console.log("Asap Frontend")
+//     }
+//     else if (i%2 === 0){
+//         console.log("Frontend")
+//     }
+//     else if(i % 2 === 1){
+//         console.log("Asap")
+//     }
+// }
+
+function greatuser(name) {
+    console.log(name)
+}
+
+greatuser("success")
