@@ -33,8 +33,8 @@
 //     }
 // }
 
-function greatuser(name) {
+function main(name) {
     console.log(name)
 }
 
-greatuser("success")
+main("hello world")
