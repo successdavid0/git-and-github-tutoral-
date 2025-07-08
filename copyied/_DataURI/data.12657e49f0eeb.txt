@@ -1,0 +1,1 @@
+chrome-extension://alhgpfoeiimagjlnfekdhkjlkiomcapa/js/assets_app_components_messaging-intelligence_AiDraftingWindow_AiDraftingWindow_tsx.chunk.js

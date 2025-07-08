@@ -1,0 +1,1 @@
+chrome-extension://alhgpfoeiimagjlnfekdhkjlkiomcapa/js/vendors-node_modules_xstate_react_es_useMachine_js-node_modules_re-resizable_lib_index_js-nod-3fc1ba.chunk.js

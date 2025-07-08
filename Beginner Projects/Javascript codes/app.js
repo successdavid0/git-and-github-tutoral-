@@ -21,7 +21,7 @@
 // let str = "Asap Frontend";
 
 // for (let i = 1; i <= 15; i++) {
-//     console.log(i)
+    // console.log(i)
 //     if(i % 5 === 0){
 //         console.log("Asap Frontend")
 //     }
@@ -35,6 +35,9 @@
 
 function main(name) {
     console.log(name)
+
+    console.log(name)
 }
+//trying to abapt to things properly 
 
 main("hello world")

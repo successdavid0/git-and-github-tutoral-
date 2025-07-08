@@ -1,0 +1,1 @@
+chrome-extension://alhgpfoeiimagjlnfekdhkjlkiomcapa/js/assets_chrome-extension_inject_gmail_lib_InboxSDK_tsx.chunk.js
