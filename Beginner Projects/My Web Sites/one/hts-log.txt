@@ -1,0 +1,25 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 08 Jul 2025 03:00:05 at https://www.tranzit.com.ng/n/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.tranzit.com.ng/n/ -O1 "C:\Users\WELCOME\Documents\FRONTEND PROJECTS\Beginner Projects\My Web Sites\one" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+03:01:31	Error: 	"Not Found" (404) at link https://tranzit.com.ng/t/admin/images/TranzitPay.gif (from https://www.tranzit.com.ng/n/)
+03:02:08	Error: 	"Not Found" (404) at link https://www.tranzit.com.ng/n/n/images/slide1.png (from https://www.tranzit.com.ng/n/)
+03:02:28	Error: 	"Not Found" (404) at link https://www.tranzit.com.ng/n/n/images1/api3.gif (from https://www.tranzit.com.ng/n/)
+03:02:33	Error: 	"Forbidden" (403) at link https://kit.fontawesome.com/a076d05399.js (from https://www.tranzit.com.ng/n/about)
+03:02:33	Error: 	"Not Found" (404) at link https://i.ibb.co/d6KQxz0/dots.jpg (from https://www.tranzit.com.ng/n/about)
+03:02:53	Error: 	"Not Found" (404) at link https://www.tranzit.com.ng/n/a (from https://connect.facebook.net/en_US/fbevents.js)
+03:02:53	Error: 	"Not Found" (404) at link https://www.tranzit.com.ng/n/POST (from https://connect.facebook.net/en_US/fbevents.js)
+03:02:53	Error: 	"Not Found" (404) at link https://www.tranzit.com.ng/n/schema.org/ (from https://connect.facebook.net/en_US/fbevents.js)
+03:02:53	Error: 	"Not Found" (404) at link https://www.tranzit.com.ng/n/b.resolvedLink (from https://connect.facebook.net/en_US/fbevents.js)
+03:02:53	Error: 	"Not Found" (404) at link https://www.tranzit.com.ng/n/d (from https://connect.facebook.net/en_US/fbevents.js)
+03:02:53	Error: 	"Not Found" (404) at link https://www.tranzit.com.ng/signals/iwl.js (from https://connect.facebook.net/en_US/fbevents.js)
+03:02:53	Error: 	"Not Found" (404) at link https://www.tranzit.com.ng/n/c.dl (from https://connect.facebook.net/en_US/fbevents.js)
+03:02:53	Error: 	"Not Found" (404) at link https://www.tranzit.com.ng/n/c.rl (from https://connect.facebook.net/en_US/fbevents.js)
+03:02:54	Warning: 	File not parsed, looks like binary: https://www.tranzit.com.ng/n/images/database.avif
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 50 seconds : 113 links scanned, 99 files written (13243949 bytes overall) [12017275 bytes received at 70689 bytes/sec], 1717188 bytes transferred using HTTP compression in 33 files, ratio 25%, 2.5 requests per connection
+(13 errors, 1 warnings, 0 messages)

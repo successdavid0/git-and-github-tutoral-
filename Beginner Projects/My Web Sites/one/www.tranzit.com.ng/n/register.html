@@ -1,0 +1,181 @@
+	
+	
+	
+<!doctype html>
+<html lang="en">
+  
+<!-- Mirrored from www.tranzit.com.ng/n/register by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Jul 2025 10:01:31 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <title>TranzitPay - Sign Up</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="../../stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="style/css/style.css">
+	  <link rel="icon" href="../../tranzit.com.ng/t/admin/images/TranzitPay.html">
+
+</script>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'../../connect.facebook.net/en_US/fbevents.js');
+fbq('init', '759971422290297');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=759971422290297&amp;ev=PageView&amp;noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+	</head>
+	<body class="img js-fullheight" style="background-image: url(n/images/slide1.html);">
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 class="heading-section"><a class="navbar-brand" href="index-3.html">
+            <img class="image" src="../../tranzit.com.ng/t/admin/images/TranzitPay.html" alt="" class="responsive"/><span style="font-size:20px; color:white;">
+              <b>RC Number - 2946316</b>
+            </span>
+          </a></h2>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-6 col-lg-4">
+					<div class="login-wrap p-0">
+					    <div style="text-align:center"></div>
+		      	 <center>
+		      	     <h3 class="register-heading"><div style="font-size:69%" class="word"></div></h3>
+		      	 </center>
+
+		      	 
+		      	<form action="#" method="POST" onsubmit="return Traficate()">
+		      		<div class="form-group">
+		      			<input type="text" id="fullname" name="fullname" class="form-control" placeholder="Full Name" >
+		      		</div>
+		      		
+		      		<div class="form-group">
+		      			<input type="text" id="username" name="username" class="form-control" placeholder="Username" >
+		      		</div>
+		      		
+		      		<div class="form-group">
+		      			<input type="text" id="email" name="email" class="form-control" placeholder="Email Address" >
+		      		</div>
+		      	
+		      	<div class="form-group">
+                        <input type="number" id="phone" name="phone" class="form-control" placeholder="Phone Number" value="" />
+                    </div>
+		      		
+	            <div class="form-group">
+	              <input id="password_1" name="password_1" type="password" class="form-control" placeholder="Password" >
+	              <span toggle="#password_1" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+	            </div>
+	             
+	            <div class="form-group">
+	              <input id="password_2" name="password_2" type="password" class="form-control" placeholder="Confirm Password">
+	              <span toggle="#password_2" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+	            </div>
+	            
+	            <div class="form-group">
+	                <center>
+	            	<button type="submit" class="btn2 "id="submit" name="reg">Register</button>
+	            	</center>
+	            </div>
+	          </form>
+	          <br>
+	          <h6 style="color:white;">Already have an account click <a href="loginn.html">HERE</a> to login</h5>
+	          	<p><b>Forget Your Password? Then Click <a href="forget_password.html">HERE</a></b></p><br/>
+	          	<p class="w-100 text-center">&mdash; <b style="color:black">Referred By System</b> &mdash;</p>
+		      </div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="style/js/jquery.min.js"></script>
+  <script src="style/js/popper.js"></script>
+  <script src="style/js/bootstrap.min.js"></script>
+  <script src="style/js/main.js"></script>
+
+	</body>
+
+<!-- Mirrored from www.tranzit.com.ng/n/register by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Jul 2025 10:01:38 GMT -->
+</html>
+<script src="../../unpkg.com/sweetalert%402.1.2/dist/sweetalert.min.js"></script>
+<script type="text/javascript" src="js/loadingOverlay.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+ 
+window.setTimeout(function() {
+    $(".alert").fadeTo(1000, 0).slideUp(1000, function(){
+        $(this).remove(); 
+    });
+}, 5000);
+ 
+});
+</script>
+<script>
+var words = ['You about to join our family', 'Sign up and start enjoying our amazing services'],
+    part,
+    i = 0,
+    offset = 0,
+    len = words.length,
+    forwards = true,
+    skip_count = 0,
+    skip_delay = 15,
+    speed = 70;
+var wordflick = function () {
+  setInterval(function () {
+    if (forwards) {
+      if (offset >= words[i].length) {
+        ++skip_count;
+        if (skip_count == skip_delay) {
+          forwards = false;
+          skip_count = 0;
+        }
+      }
+    }
+    else {
+      if (offset == 0) {
+        forwards = true;
+        i++;
+        offset = 0;
+        if (i >= len) {
+          i = 0;
+        }
+      }
+    }
+    part = words[i].substr(0, offset);
+    if (skip_count == 0) {
+      if (forwards) {
+        offset++;
+      }
+      else {
+        offset--;
+      }
+    }
+    $('.word').text(part);
+  },speed);
+};
+
+$(document).ready(function () {
+  wordflick();
+});
+</script>
+<script>
+function Traficate(){
+
+
+        $("#submit").html("Creating Account...");
+        return true;
+        
+    }
